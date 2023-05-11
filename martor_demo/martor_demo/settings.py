@@ -28,6 +28,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 ALLOWED_HOSTS = ['*']
+CSRF_TRUSTED_ORIGINS = ['http://localhost:8020']
 
 # Martor Configuration
 MARTOR_THEME = 'bootstrap'  # semantic
